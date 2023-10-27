@@ -1,9 +1,9 @@
 # Haunted-House
 
 !Very Difficult!
-Wake up in a Haunted House. Jigsaw says "Very long riddle" 
+Wake up in a Haunted House. 
 
-You're tied up! Pick an option to cut the rops loose:
+You're tied up! Pick an option to cut the ropes loose:
 
 rusting pipe
 twist yourself free
