@@ -38,5 +38,5 @@ a{
 }
 
 a:hover{
-    content: 'whatever it is you want to add';
+    color:red;
 }
