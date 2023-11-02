@@ -11,14 +11,20 @@ body{
     background-size: cover;
 }
 
-/*#myVideo {
+#myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-  }*/
-
+  }
+  .content {
+    position: fixed;
+    top:0;
+    color: ivory;
+    width: 100%;
+    padding: 20px;
+  }
 .header{
 font-size: 70px;
 font-weight: 800;
@@ -49,3 +55,4 @@ a:hover{
     margin-top:10%;
     filter: drop-shadow(5px 5px 15px red);
 }
+
