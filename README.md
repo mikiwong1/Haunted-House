@@ -24,5 +24,11 @@ Staircase
 Edge of the bed: You are free (super smart)
 Go through the door.
 Elevator: Elevator alerts bad guy.
-Staircase
+Staircase: falls thru
+
+Staircase: If you previously chose rusting pipe, you fall thru and get injured
+
+Eliminates choice of pulling yourself out.
+
+Next options walk towards a door in the 
 
