@@ -42,5 +42,23 @@ If you chose edge of bed and pulled yourself out of basement you miss iut on hav
 
 First floor:
 
+You see the kidnapper lying on the couch taking a nap.
 
+You can cross to the front door but the path you have to take is in front of the napping kidnapper. He wakes up and comes to get you. If you choose this option you start in the basement again.
 
+You also see a path leading to the kitchen. If you decide to go here, you get the option of choosing your weapon.
+
+butter knife
+frozen block of meat
+cheese grater
+
+Butter knife: Useless you go back to attack the kidnapper but only leave him with a few scratches.
+
+Options after:
+
+sacrifice your accomplice
+sacrifice yourself
+
+if you sacrificee your accomplice you can make it to the front door and get out onto the porch
+
+if you sacrifice yourself you start off in the basement
