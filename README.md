@@ -75,6 +75,19 @@ None (best choice): You decided to look around the house and can go through
 Backdoor
 Second Floor
 
+Backdoor: you find out its locked and wake up the kidnapper
+
+Second Floor: you go upstairs and to kidnappers bedroom to find a fire escape in front of a locked window
+
+With accomplice: can use strength to break open window and escape
+
+Without accomplice: You need to find the keys but you can only choose to search one of three places
+
+in trash: no keys
+inside stuffed animal: no keys
+ontop of ceiling fan: keys
+
+
 
 
 
