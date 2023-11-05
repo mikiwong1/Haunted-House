@@ -50,7 +50,7 @@ You also see a path leading to the kitchen. If you decide to go here, you get th
 
 butter knife
 frozen block of meat
-cheese grater
+no weapon
 
 Butter knife: Useless you go back to attack the kidnapper but only leave him with a few scratches.
 
@@ -59,6 +59,23 @@ Options after:
 sacrifice your accomplice
 sacrifice yourself
 
-if you sacrificee your accomplice you can make it to the front door and get out onto the porch
+if you sacrifice your accomplice you can make it to the second floor and get out onto the porch
 
 if you sacrifice yourself you start off in the basement
+
+Block of meat: You use it to knock the kidnapper unconscious for a short period of time. (kidnapper will later wake up once you pick the option to either go up lr go thru the front and will then give options to sacrifice your accomplice or yourself like prev choices)
+
+Options after: 
+
+go to second floor
+try and go through the front door
+
+None (best choice): You decided to look around the house and can go through
+
+Backdoor
+Second Floor
+
+
+
+
+
