@@ -1,0 +1,289 @@
+/* Taken from https://stackoverflow.com/questions/107936/how-to-add-some-non-standard-font-to-a-website and imported a custom font*/
+@font-face {
+  font-family: Haunt;
+  src: url(../Font/Scary\ House.ttf) format("truetype");
+}
+
+body{
+  font-family: Haunt;
+  color:ivory;
+  background-size: cover;
+  background-color: black;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(30%)
+}
+#ElevatorExit {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(40%)
+}
+#StaircaseExit {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(60%);
+  animation-name:fadeIn;
+    animation-duration:8.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+#StaircaseExitFail {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(60%);
+  animation-name:fadeIn;
+    animation-duration:11s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+#jumpScare {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(60%);
+  animation-name:fadeIn;
+    animation-duration:8.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  9% {opacity: 1;}
+    18%{opacity: 1;}
+    27% {opacity: 1;}
+    36%{opacity: 1;}
+    73%{opacity: .5;}
+    82% {opacity: .3;}
+    100% {opacity: 0;}
+}
+.content {
+  position: fixed;
+  color: ivory;
+  top:0;
+  width: 100%;
+  height: auto;
+  
+}
+
+/* implemented animation code from https://www.sitepoint.com/css-typewriter-effect/ to give my website a suspenseful feel when playing. Gives text a type writer feel.*/
+
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: smokewhite; }
+}
+
+
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+
+
+
+.header{
+
+overflow: hidden;
+white-space: nowrap;
+border-right: .1em solid whitesmoke;
+animation: typing 8s steps(200, end) forwards,  blink .8s infinite;
+width: 0;
+font-size: 18px;
+font-weight: 800;
+color: whitesmoke;
+position: relative;
+margin-top: 0;
+padding-top: 30px;
+padding-bottom: 30px;
+background: rgba(0, 0, 0, 0.6);
+display:inline-block;
+
+}
+.header1{
+
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .1em solid whitesmoke;
+  animation: typing 8s steps(200, end) forwards,  blink .8s infinite;
+  width: 0;
+  font-size: 17px;
+  font-weight: 800;
+  color: whitesmoke;
+  position: relative;
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  display:inline-block;
+  
+  }
+  
+  .header2{
+
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .1em solid whitesmoke;
+    animation: typing 8s steps(200, end) forwards,  blink .8s infinite;
+    width: 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    display:inline-block;
+    
+  }
+.header3{
+
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .1em solid whitesmoke;
+    animation: typing 8s steps(200, end) forwards,  blink .8s infinite;
+    width: 0;
+    font-size: 16px;
+    font-weight: 800;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    display:inline-block;
+    
+  }
+
+  .header4{
+
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .1em solid whitesmoke;
+    animation: typing 8s steps(200, end) forwards,  blink .8s infinite;
+    width: 0;
+    font-size: 20.5px;
+    font-weight: 800;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    display:inline-block;
+    
+  }
+
+
+#cut{
+position: fixed;
+visibility:hidden;
+top:190px;
+left:620px;
+transform: rotate(-12deg);
+  
+}
+  
+#loosen{
+position: fixed;
+visibility:hidden;
+top:500px;
+left:490px;
+transform: rotate(-12deg);
+      
+}
+
+
+#lazy{
+position: fixed;
+visibility:hidden;
+top:385px;
+left:910px;
+transform: rotate(-12deg);
+
+}
+
+#staircase{
+  position: fixed;
+  visibility:hidden;
+  top:800px;
+  left:410px;
+  transform: rotate(-12deg);
+    
+}
+    
+#elevator {
+  position: fixed;
+  visibility:hidden;
+  top:515px;
+  left:914px;
+ 
+        
+}
+
+#staircase2{
+  position: fixed;
+  visibility:hidden;
+  top:500px;
+  left:910px;
+  transform: rotate(-12deg);
+    
+}
+    
+#elevator2 {
+  position: fixed;
+  visibility:hidden;
+  top:400px;
+  left:895px;
+ 
+        
+}
+#retrystairs{
+  position: fixed;
+  visibility:hidden;
+  top:500px;
+  left:910px;
+  font-size: 40px;
+  max-width: 1000px;
+  
+    
+}
+
+
+a{
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+word-wrap: break-word;
+max-width: 100px;
+text-decoration:none;
+text-align: center;
+color:ivory;
+}
+
+a:hover{
+color:red;
+}
