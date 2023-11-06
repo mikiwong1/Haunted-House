@@ -1,0 +1,61 @@
+/* Taken from https://stackoverflow.com/questions/107936/how-to-add-some-non-standard-font-to-a-website and imported a custom font*/
+@font-face {
+    font-family: Haunt;
+    src: url(../Font/Scary\ House.ttf) format("truetype");
+}
+
+body{
+    font-family: Haunt;
+    color:ivory;
+    background-size: cover;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .content {
+    position: fixed;
+    
+    color: ivory;
+    width: 100%;
+    padding: 20px;
+  }
+.header{
+font-size: 70px;
+font-weight: 800;
+text-align: center;
+color:ivory;
+filter: drop-shadow(5px 5px 15px rgb(255, 102, 0));
+}
+
+
+.header-links {
+font-size: 40px;
+font-weight: 800;
+text-align:center ;
+line-height: 30px;
+filter: drop-shadow(5px 5px 15px rgb(255, 102, 0));
+}
+
+a{
+    text-decoration:none;
+    color:ivory;
+}
+
+a:hover{
+    color:rgb(255, 102, 0);
+}
+
+#rules{
+    color:rgb(255, 102, 0);
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top:10%;
+    filter: drop-shadow(5px 5px 15px red);
+}
+
