@@ -27,6 +27,16 @@ body{
   min-height: 100%;
   filter: brightness(40%)
 }
+
+#Bright {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+ 
+}
+
 #StaircaseExit {
   position: fixed;
   right: 0;
@@ -71,8 +81,11 @@ body{
     18%{opacity: 1;}
     27% {opacity: 1;}
     36%{opacity: 1;}
-    73%{opacity: .5;}
-    82% {opacity: .3;}
+    62%{opacity: .8;}
+    73%{opacity: .6;}
+    79%{opacity: .6;}
+    82% {opacity: .6;}
+    95% {opacity: .2;}
     100% {opacity: 0;}
 }
 .content {
@@ -197,7 +210,52 @@ display:inline-block;
     
   }
 
+  .header5{
 
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .1em solid whitesmoke;
+    animation: typing 8s steps(200, end) forwards,  blink .8s infinite;
+    width: 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: whitesmoke;
+    position: relative;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 0, 0, 0.0);
+    display:inline-block;
+    
+    }
+
+    .header6{
+
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: .1em solid whitesmoke;
+      animation: typing 8s steps(200, end) forwards,  blink .8s infinite;
+      width: 0;
+      font-size: 22px;
+      font-weight: 800;
+      color: whitesmoke;
+      position: relative;
+      margin-top: 0;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background: rgba(0, 0, 0, 0.0);
+      display:inline-block;
+      
+      }
+
+      #scare{
+        position: fixed;
+        visibility:hidden;
+        top:190px;
+        left:620px;
+        transform: rotate(-12deg);
+          
+        }
 #cut{
 position: fixed;
 visibility:hidden;
@@ -270,6 +328,169 @@ transform: rotate(-12deg);
   max-width: 1000px;
   
     
+}
+
+
+
+#floor{
+  position: fixed;
+  visibility:hidden;
+  top:500px;
+  left:910px;
+  font-size: 20px;
+
+  
+    
+}
+
+#forward{
+  position: fixed;
+  visibility:hidden;
+  top:400px;
+  left:890px;
+  font-size: 15px;
+  
+  
+    
+}
+#right{
+  position: fixed;
+  visibility:hidden;
+  top:570px;
+  left:920px;
+  font-size: 15px;
+
+  transform: rotate(-12deg);
+    
+}
+#audio1{
+  visibility: hidden;
+}
+#retry{
+  position: fixed;
+  visibility:hidden;
+  top:500px;
+  left:800px;
+  font-size: 40px;
+  max-width: 1000px;
+  
+    
+}
+
+#feel{
+  position: fixed;
+  visibility:hidden;
+  top:650px;
+  left:750px;
+ 
+  
+  
+    
+}
+
+#backhall{
+  position: fixed;
+  visibility:hidden;
+  top:700px;
+  left:1400px;
+ 
+
+
+    
+}
+
+
+#breakaway{
+  position: fixed;
+  visibility:hidden;
+  top:400px;
+  left:1020px;
+ 
+  
+  
+    
+}
+
+#careful{
+  position: fixed;
+  visibility:hidden;
+  top:550px;
+  left:1020px;
+ 
+
+
+}
+
+
+#congrats{
+  position: fixed;
+  visibility:hidden;
+  top:550px;
+  left:810px;
+  font-size: 45px;
+  line-height: 50px ;
+  max-width: 300px;
+  
+    
+}
+
+#run{
+background-color: transparent;
+border-color: transparent;
+font-family: Haunt;
+position: fixed;
+visibility:hidden;
+top:650px;
+left:1330px;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+word-wrap: break-word;
+max-width: 100px;
+text-decoration:none;
+text-align: center;
+color:ivory;
+ 
+}
+
+
+
+
+#still{
+  background-color: transparent;
+  border-color: transparent;
+  font-family: Haunt;
+  position: fixed;
+  visibility:hidden;
+  top:500px;
+  left:550px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  word-wrap: normal;
+  max-width: 100px;
+  text-align: center;
+  color:ivory;
+
+}
+
+#back{
+  background-color: transparent;
+  border-color: transparent;
+  font-family: Haunt;
+  position: fixed;
+  visibility:hidden;
+  top:800px;
+  left:918px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  word-wrap: break-word;
+  max-width: 100px;
+  text-decoration:none;
+  text-align: center;
+  color:ivory;
+
 }
 
 

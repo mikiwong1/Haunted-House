@@ -1,0 +1,25 @@
+/* Taken from https://stackoverflow.com/questions/107936/how-to-add-some-non-standard-font-to-a-website and imported a custom font*/
+@font-face {
+  font-family: Haunt;
+  src: url(../../../Font/Scary\ House.ttf) format("truetype");
+}
+
+body{
+  font-family: Haunt;
+  color:pink;
+  background-size: cover;
+  background-image: url(../../../Images/cat.jpg);
+}
+
+p{
+
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 30px;
+  color: PINK;
+
+  text-decoration:none;
+  text-align: center;
+  
+  
+  }
